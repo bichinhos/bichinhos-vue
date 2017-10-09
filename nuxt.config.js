@@ -14,13 +14,13 @@ module.exports = {
       // google+
       { itemprop: 'name', content: 'Bichinhos' },
       { itemprop: 'description', content: 'Description Bichinhos' },
-      { itemprop: 'image', content: 'https://bichinhos.herokuapp.com//intro.png' },
+      { itemprop: 'image', content: 'https://bichinhos.herokuapp.com/intro.png' },
       // facebook
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'Bichinhos' },
-      { property: 'og:url', content: 'https://bichinhos.herokuapp.com//' },
+      { property: 'og:url', content: 'https://bichinhos.herokuapp.com/' },
       { property: 'og:site_name', content: 'Bichinhos' },
-      { property: 'og:image', content: 'https://bichinhos.herokuapp.com//intro.png' },
+      { property: 'og:image', content: 'https://bichinhos.herokuapp.com/intro.png' },
       { property: 'og:description', content: 'Description Bichinhos' },
       { property: 'og:locale', content: 'pt_Br' },
       { property: 'fb:app_id', content: '122670998365518' },
@@ -30,14 +30,14 @@ module.exports = {
       { name: 'twitter:title', content: 'Bichinhos' },
       { name: 'twitter:description', content: 'Bichinhos' },
       { name: 'twitter:creator', content: 'gustavoquinalha' },
-      { name: 'twitter:image', content: 'https://bichinhos.herokuapp.com//intro.png' },
+      { name: 'twitter:image', content: 'https://bichinhos.herokuapp.com/intro.png' },
       // android
       { name: 'msapplication-TileColor', content: '#000000' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#000000' }
     ],
     link: [
-      { rel: 'sitemap', type: 'application/xml', content: 'https://bichinhos.herokuapp.com//sitemap.xml' },
+      { rel: 'sitemap', type: 'application/xml', content: 'https://bichinhos.herokuapp.com/sitemap.xml' },
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', sizes: '57x57', href: '/icons/apple-icon-57x57.png' },
@@ -49,7 +49,11 @@ module.exports = {
       { rel: 'apple-touch-icon', sizes: '144x144', href: '/icons/apple-icon-144x144.png' },
       { rel: 'apple-touch-icon', sizes: '152x152', href: '/icons/apple-icon-152x152.png' },
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/apple-icon-180x180.png' },
-      { rel: 'base', href: 'https://bichinhos.herokuapp.com//' },
+      { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/icons/android-icon-192x192.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/icons/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/icons/favicon-96x96.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/icons/favicon-16x16.png' },
+      { rel: 'base', href: 'https://bichinhos.herokuapp.com/' },
       { rel: 'canonical', href: 'https://bichinhos.herokuapp.com//' }
     ],
     script: [{
