@@ -1,4 +1,4 @@
-# Styleguide Kit
+# Bichinhos
 
 > Nuxt.js project
 
